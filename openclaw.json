@@ -2,7 +2,7 @@
   "gateway": {
     "auth": {
       "mode": "token",
-      "token": "ec9487eff30f8c2e4e64df25d266e069a60a46ba2b37934b"
+      "token": ""
     },
     "mode": "local"
   },
