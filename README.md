@@ -41,7 +41,7 @@ Autonomous Mode: The agent automatically monitors the HEARTBEAT.md file to perfo
  AI Disclosure
 Core Model: Groq Llama-3-8b-8192.
 
-Development Support: Gemini was used for architecture design, Node.js event-loop debugging, and structuring project artifacts.
+Development Support: AI[Gemini] was used for architecture design, Node.js event-loop debugging, and structuring project artifacts.
  Current Limitations & Bottlenecks
 While the core discovery logic is validated, the following items are currently in the "Incomplete/Optimization" phase:
 Discord Delivery Timeout:** Encountered a `1006 WebSocket` termination during live testing. Diagnostic logs indicate a Node.js event-loop delay (approx. 100s) during heavy plugin hydration, which prevented the Discord heartbeat from maintaining a stable connection.
