@@ -6,17 +6,17 @@ Developer: Monisha M, Pocha Om Shivani, Mehak Malik
 
 Institution: RV College of Engineering (RVCE), CSE[AIML]
 
-🛠️ The Solution
+ The Solution
 The agent bridges the gap between student ambition and career opportunities by delegating the "toil" of manual searching to an intelligent orchestrator. It runs on local hardware to ensure data sovereignty while leveraging high-speed cloud inference for reasoning.
 
-✨ Key Features
+ Key Features
 Proactive Discovery: Utilizes the OpenClaw Heartbeat Daemon to execute daily searches at 8:00 AM without user prompting.
 
 Intelligent Summarization: Powered by Groq Llama-3-8b for near-instant extraction of internship details and application links.
 
 Durable Configuration: Uses openclaw.json and .env for persistent session management and secure credential handling.
 
-🚀 Setup & Installation
+ Setup & Installation
 Install Dependencies: Ensure Node.js ≥ 22 is installed on your system.
 
 Initialize Environment:
@@ -33,12 +33,12 @@ Launch the Gateway:
 
 PowerShell
 openclaw gateway --allow-unconfigured
-📈 Usage
+ Usage
 Manual Trigger: Run openclaw chat and ask: "fetch me some AI internships from Reddit".
 
 Autonomous Mode: The agent automatically monitors the HEARTBEAT.md file to perform scheduled tasks.
 
-🧠 AI Disclosure
+ AI Disclosure
 Core Model: Groq Llama-3-8b-8192.
 
 Development Support: Gemini was used for architecture design, Node.js event-loop debugging, and structuring project artifacts.
